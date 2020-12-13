@@ -17,6 +17,7 @@ import CIcon from '@coreui/icons-react'
 const Cards = () => {
   const [collapsed, setCollapsed] = React.useState(true)
   const [showCard, setShowCard] = React.useState(true)
+  const prueba;
 
   return (
     <>
