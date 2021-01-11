@@ -5,7 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import store from "./redux/store";
+import almacen from "./redux/store";
 import { icons } from "./assets/icons";
 
 import { Provider } from "react-redux";
@@ -15,7 +15,7 @@ import "./firebase/firebase";
 React.icons = icons;
 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider store={almacen}>
     <App />
   </Provider>,
   document.getElementById("root")
